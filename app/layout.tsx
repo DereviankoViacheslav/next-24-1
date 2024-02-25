@@ -14,6 +14,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // const randonNumber = Math.floor(Math.random() * 2);
+
+  // if (randonNumber === 1) {
+  //   throw new Error('Error from RootLayout');
+  // }
+
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
