@@ -1,9 +1,10 @@
+import { ErrorButton } from '@/app/_components/ErrorButton';
+
 export default function Analytics() {
-  const randonNumber = Math.floor(Math.random() * 2);
-
-  if (randonNumber === 1) {
-    throw new Error('Error from Analytics page');
-  }
-
-  return <main>Analytics</main>;
+  return (
+    <main>
+      <h1>Analytics</h1>
+      <ErrorButton message='Error message from "Error page"' />
+    </main>
+  );
 }

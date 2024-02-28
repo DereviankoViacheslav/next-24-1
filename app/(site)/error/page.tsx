@@ -1,9 +1,10 @@
+import { ErrorButton } from '@/app/_components/ErrorButton';
+
 export default function Error() {
-  const randonNumber = Math.floor(Math.random() * 2);
-
-  if (randonNumber === 1) {
-    throw 'Error from Error page';
-  }
-
-  return <main>Error page</main>;
+  return (
+    <main>
+      <h1>Error page</h1>
+      <ErrorButton message='Error message from "Error page"' />
+    </main>
+  );
 }
