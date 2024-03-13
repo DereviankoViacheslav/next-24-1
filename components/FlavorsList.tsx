@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 
-export const FlavorsList = ({ data }: { data: Catalog['flavor'] }) => {
+export const FlavorsList = ({ data }: { data: Catalog['flavors'] }) => {
     const searchParams = useSearchParams();
     const currentFlavor = searchParams.get('flavor');
     const pathname = usePathname();

@@ -1,7 +1,7 @@
-import { Catalog, FlavorEntity } from '@/db-types';
+import { Catalog, FlavorsEntity } from '@/db-types';
 
-export async function getFlavors(): Promise<Catalog['flavor'] | null> {
-    const res = await fetch(`${process.env.API_BASE_PATH}/flavor`);
+export async function getFlavors(): Promise<Catalog['flavors'] | null> {
+    const res = await fetch(`${process.env.API_BASE_PATH}/flavors`);
 
     if (!res.ok) {
         return null;
@@ -12,11 +12,11 @@ export async function getFlavors(): Promise<Catalog['flavor'] | null> {
 
 export async function getFlavorById(
     id?: string | null,
-): Promise<FlavorEntity | null> {
+): Promise<FlavorsEntity | null> {
     if (!id) {
         return null;
     }
-    const res = await fetch(`${process.env.API_BASE_PATH}/flavor/${id}`);
+    const res = await fetch(`${process.env.API_BASE_PATH}/flavors/${id}`);
 
     if (!res.ok) {
         return null;

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Catalog } from '@/db-types';
 import Link from 'next/link';
 
-export const MakersList = ({ data }: { data: Catalog['maker'] }) => {
+export const MakersList = ({ data }: { data: Catalog['makers'] }) => {
     if (!data) {
         return null;
     }

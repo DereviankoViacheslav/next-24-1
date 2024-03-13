@@ -1,4 +1,4 @@
-import { ErrorButton } from '@/app/_components/ErrorButton';
+import { ErrorButton } from '@/components/ErrorButton';
 
 export default function Analytics() {
     return (

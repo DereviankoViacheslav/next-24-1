@@ -16,23 +16,22 @@ type Product = {
 // }
 
 export default async function Product({
-    params: { category_alias, product_alias },
+    params: { product_alias },
 }: {
-    params: { category_alias: string; product_alias: string };
+    params: { product_alias: string };
 }) {
     const product = await getLemonadeById(product_alias);
     if (!product) {
         notFound();
     }
-    const flavor = await getFlavorById(product.flavorId);
-    const maker = await getMakerById(product.flavorId);
 
     return (
         <div>
             <Image src={product.image} alt="" width={100} height={100} />
             <h1 className="text-lg font-bold">
-                <div>{maker?.name}</div>
-                <div>{flavor?.name}</div>
+                <div>{product.maker}</div>
+                <div>{product.flavor}</div>
+                ooooooo
             </h1>
         </div>
     );

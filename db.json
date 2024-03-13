@@ -1,266 +1,249 @@
 {
-    "maker": [
+    "makers": [
         {
             "id": "1",
             "alias": "natakhtari",
             "name": "Natakhtari",
-            "image": "/makers/natakhtari.jpg",
-            "flavorId": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "7",
-                "8",
-                "9",
-                "11",
-                "12",
-                "13"
-            ]
+            "image": "/makers/natakhtari.jpg"
         },
         {
             "id": "2",
             "alias": "lagidze",
             "name": "Lagidze",
-            "image": "/makers/lagidze.jpg",
-            "flavorId": ["5", "12", "13"]
+            "image": "/makers/lagidze.jpg"
         },
         {
             "id": "3",
             "alias": "zedazeni",
             "name": "Zedazeni",
-            "image": "/makers/zedazeni.jpg",
-            "flavorId": ["3", "4", "5", "12", "13"]
+            "image": "/makers/zedazeni.jpg"
         },
         {
             "id": "4",
             "alias": "kazbegi",
             "name": "Kazbegi",
-            "image": "/makers/kazbegi.jpg",
-            "flavorId": ["2", "3", "5", "12", "13", "14", "15", "17"]
+            "image": "/makers/kazbegi.jpg"
         },
         {
             "id": "5",
             "alias": "aqualife",
             "name": "Aqualife",
-            "image": "/makers/aqualife.jpg",
-            "flavorId": ["5", "13", "19"]
+            "image": "/makers/aqualife.jpg"
         }
     ],
-    "lemonade": [
+    "lemonades": [
         {
             "id": "1",
             "makerId": "1",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "1",
             "image": "/lemonades/natahtari-tarragon-0-5l.jpeg"
         },
         {
             "id": "5",
             "makerId": "1",
-            "volumeId": ["1", "3"],
+            "volumeId": "3",
             "flavorId": "2",
             "image": "/lemonades/natahtari-orange-0-5l.jpg"
         },
         {
             "id": "10",
             "makerId": "1",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "3",
             "image": "/lemonades/natahtari-krem-0-5l.jpg"
         },
         {
             "id": "14",
             "makerId": "1",
-            "volumeId": ["3", "4", "1", "2"],
+            "volumeId": "2",
             "flavorId": "4",
             "image": "/lemonades/natahtari-saperavi-0-5l.jpg"
         },
         {
             "id": "17",
             "makerId": "1",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "5",
             "image": "/lemonades/natahtari-pear-0-5l.jpg"
         },
         {
             "id": "25",
             "makerId": "1",
-            "volumeId": ["1", "4"],
+            "volumeId": "4",
             "flavorId": "7",
             "image": "/lemonades/natahtari-barbaris.jpg"
         },
         {
             "id": "29",
             "makerId": "1",
-            "volumeId": ["3", "2"],
+            "volumeId": "2",
             "flavorId": "8",
             "image": "/lemonades/natakhtari-limona-i-lajma.jpg"
         },
         {
             "id": "34",
             "makerId": "1",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "9",
             "image": "/lemonades/natahtari-cream-choklet-0-5l.jpeg"
         },
         {
             "id": "41",
             "makerId": "1",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "11",
             "image": "/lemonades/natahtari-fejhoa-0-5-l.jpg"
         },
         {
             "id": "46",
             "makerId": "1",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "12",
             "image": "/lemonades/natahtari-limon-0-5l.jpg"
         },
         {
             "id": "49",
             "makerId": "1",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "13",
             "image": "/lemonades/natahtari-tarhun-0-5l.jpg"
         },
         {
             "id": "54",
             "makerId": "2",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "12",
             "image": "/lemonades/lagidze-limon.jpg"
         },
         {
             "id": "57",
             "makerId": "2",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "13",
             "image": "/lemonades/lagidze-tarhun.webp"
         },
         {
             "id": "62",
             "makerId": "2",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "5",
             "image": "/lemonades/lagidze-pear.jpg"
         },
         {
             "id": "65",
             "makerId": "3",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "5",
             "image": "/lemonades/zedazeni-pear.jpg"
         },
         {
             "id": "68",
             "makerId": "3",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "3",
             "image": "/lemonades/zedazeni-crem.jpg"
         },
         {
             "id": "73",
             "makerId": "3",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "4",
             "image": "/lemonades/zedazeni-sapevari.png"
         },
         {
             "id": "76",
             "makerId": "3",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "12",
             "image": "/lemonades/zedazeni-limon.png"
         },
         {
             "id": "81",
             "makerId": "3",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "13",
             "image": "/lemonades/zedazeni-tarhun.jpg"
         },
         {
             "id": "86",
             "makerId": "4",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "2",
             "image": "/lemonades/kazbegi-orange.jpeg"
         },
         {
             "id": "89",
             "makerId": "4",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "3",
             "image": "/lemonades/kazbegi-crem.png"
         },
         {
             "id": "94",
             "makerId": "4",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "5",
             "image": "/lemonades/kazbegi-pear-0-5l.jpg"
         },
         {
             "id": "97",
             "makerId": "4",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "12",
             "image": "/lemonades/kazbegi-limon-0-5l.jpg"
         },
         {
             "id": "102",
             "makerId": "4",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "13",
             "image": "/lemonades/kazbegi-tarhun-0-5l.jpg"
         },
         {
             "id": "104",
             "makerId": "4",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "14",
             "image": "/lemonades/kazbegi-feijoa.png"
         },
         {
             "id": "109",
             "makerId": "4",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "15",
             "image": "/lemonades/kazbegi-chery-0-5l.jpg"
         },
         {
             "id": "116",
             "makerId": "4",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "17",
             "image": "/lemonades/kazbegi-citro.jpeg"
         },
         {
             "id": "122",
             "makerId": "5",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "5",
             "image": "/lemonades/aqualife-pear.png"
         },
         {
             "id": "125",
             "makerId": "5",
-            "volumeId": ["1", "2"],
+            "volumeId": "2",
             "flavorId": "13",
             "image": "/lemonades/aqualife-Tarhun.jpg"
         },
         {
             "id": "134",
             "makerId": "5",
-            "volumeId": ["3", "4"],
+            "volumeId": "4",
             "flavorId": "19",
             "image": "/lemonades/aqualife-bicla.jpg"
         }
     ],
-    "flavor": [
+    "flavors": [
         { "id": "1", "name": "Tarragon" },
         { "id": "2", "name": "Orange" },
         { "id": "3", "name": "Cream" },
@@ -277,7 +260,7 @@
         { "id": "17", "name": "Citro" },
         { "id": "19", "name": "Baikal" }
     ],
-    "volume": [
+    "volumes": [
         { "id": "1", "value": "0.5" },
         { "id": "2", "value": "1" },
         { "id": "3", "value": "1.5" },
