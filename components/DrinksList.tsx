@@ -1,6 +1,7 @@
 'use client';
-import Image from 'next/image';
+import { Data } from '@/loaders/drinks';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export type Drink = {
@@ -10,7 +11,7 @@ export type Drink = {
     image: string;
 };
 
-export const DrinksList = ({ data }: { data: Drink[] }) => {
+export const DrinksList = ({ data }: { data: Data[] }) => {
     const pathname = usePathname();
     if (!data) {
         return null;
@@ -18,15 +19,11 @@ export const DrinksList = ({ data }: { data: Drink[] }) => {
 
     return (
         <div className="flex gap-4">
-            {data.map(({ id, image, flavor, maker }) => (
-                <Link
-                    key={id}
-                    href={`${pathname}/${id}`}
-                    className=""
-                >
+            {data.map(({ id, flavor, image, maker }) => (
+                <Link key={id} href={`/${id}`} className="">
                     <Image src={image} alt="" width={100} height={100} />
-                    <p>{flavor}</p>
-                    <p>{maker}</p>
+                    <p>{flavor.name}</p>
+                    <p>{maker.name}</p>
                 </Link>
             ))}
         </div>

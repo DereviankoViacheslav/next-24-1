@@ -16,9 +16,6 @@ export default async function AddProduct(
         volumeId: formData.get('volumeId'),
     };
 
-    console.log('data-->>', data);
-
-
     return {
         status: true,
         message: 'Added successfully!',

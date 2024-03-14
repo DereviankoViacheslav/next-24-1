@@ -12,7 +12,7 @@ export const MakersList = ({ data }: { data: Catalog['makers'] }) => {
             {data.map(({ id, alias, name, image }) => (
                 <Link
                     key={id}
-                    href={`/catalog/${alias}`}
+                    href={`/catalog/${alias}?_page=1&_per_page=4`}
                     className="flex flex-col items-center"
                 >
                     <Image src={image} alt="" width={100} height={100} />
